@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+:root {
+  --primary-color: #ea00ff;
+  --secondary-color: #fff2aa;
+  --background: #1a1a1a;
+  --title:  #f3f3f3;
+  --contrast: #ff9f22;
+  --text-base: #3a3a3a;
+  --cta: #c325d8;
+  --text-color: #f3f3f3;
+  --gradiant1: linear-gradient(135deg, #ea00ff, #ff008c);
+  --gradiant1: linear-gradient(135deg, #f263ff, #ff6fbe);
+  --font-base: "Open Sans", sans-serif;
+  --font-title: "Oswald", sans-serif;
+} 
