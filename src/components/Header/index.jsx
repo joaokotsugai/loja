@@ -4,7 +4,9 @@ export default function Header() {
     return(
         <header>
             <div className='anuncio'>
+                <div className='anuncio-conteudo'>
                 <p>10x sem juros!</p>
+                </div>
             </div>
 
             <div className='topo'>
