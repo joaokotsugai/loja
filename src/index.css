@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 
 :root {
-  --primary-color: #ea00ff;
-  --secondary-color: #fff2aa;
-  --background: #1a1a1a;
+  --primary-color: #2bff00;
+  --secondary-color: #ecc827;
+  --background: #2550dd;
   --title:  #f3f3f3;
   --contrast: #ff9f22;
   --text-base: #3a3a3a;
-  --cta: #c325d8;
+  --cta: #62da33;
   --text-color: #f3f3f3;
-  --gradiant1: linear-gradient(135deg, #ea00ff, #ff008c);
-  --gradiant1: linear-gradient(135deg, #f263ff, #ff6fbe);
+  --gradiant1: linear-gradient(135deg, #e8f347, #f0d24d);
+  --gradiant1: linear-gradient(135deg, #e7bd32, #f0ac2e);
   --font-base: "Open Sans", sans-serif;
   --font-title: "Oswald", sans-serif;
 } 
@@ -66,6 +66,8 @@ img{
     padding: 8px 0;
     font-size: 14px;
     white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
 }
 
 .anuncio-conteudo {
@@ -106,4 +108,47 @@ img{
 .topo nav {
     display: flex;
     gap: 20px;
+}
+
+.topo nav a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--text-base);
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.topo nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color);
+    transition: width 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.topo nav a:hover::after {
+    width: 100%;
+}
+
+/*Responsividade*/
+@media (max-width: 768px) {
+    .topo {
+        flex-direction: row;
+        padding: 15px 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .topo picture {
+        max-width: 80px;
+    }
+
+    .topo nav a{
+        font-size: 15px;
+    }
 }

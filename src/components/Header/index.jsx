@@ -5,14 +5,14 @@ export default function Header() {
         <header>
             <div className='anuncio'>
                 <div className='anuncio-conteudo'>
-                <p>10x sem juros!</p>
+                <p>10 frutas sem robux</p>
                 </div>
             </div>
 
             <div className='topo'>
                 <picture>
                     <a href="#">
-                        <img src='./logoLoja.png'/>
+                        <img src='./bloxbrasil.png'/>
                     </a>
                 </picture>  
 
