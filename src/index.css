@@ -75,7 +75,7 @@ img{
     overflow: hidden;
 }
 
-.anuncio-counteudo p {
+.anuncio-conteudo p {
     display: inline-block;
     animation: textCorrido 10s linear infinite;
 }
