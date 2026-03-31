@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   --primary-color: #2bff00;
@@ -12,7 +12,7 @@
   --gradiant1: linear-gradient(135deg, #e8f347, #f0d24d);
   --gradiant1: linear-gradient(135deg, #e7bd32, #f0ac2e);
   --font-base: "Open Sans", sans-serif;
-  --font-title: "Oswald", sans-serif;
+  --font-title: "Raleway", sans-serif;
 } 
 
 * {
@@ -75,9 +75,9 @@ img{
     overflow: hidden;
 }
 
-.anuncio-counteudo p {
+.anuncio-conteudo p {
     display: inline-block;
-    animation: textCorrido 10s linear infinite;
+    animation: textCorrido 8s linear infinite;
 }
 
 @keyframes textCorrido {

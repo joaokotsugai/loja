@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/Header'
+import Capa from './components/Capa'
 
 function App() {
  
@@ -9,8 +10,15 @@ function App() {
       <header>
         <Header/>
       </header>
+    
+
+      <main>
+        <Capa/>
+      </main>
     </div>
   )
 }
+
+
 
 export default App

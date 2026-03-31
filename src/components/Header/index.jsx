@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <div className='anuncio'>
                 <div className='anuncio-conteudo'>
-                <p>10 frutas sem robux</p>
+                <p>Já viu o preço da Kitsune, ta mó caro</p>
                 </div>
             </div>
 
