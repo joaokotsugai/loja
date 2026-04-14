@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './components/Header'
 import Capa from './components/Capa'
+import Produtos from './components/Produtos'
 
 function App() {
  
@@ -14,6 +15,9 @@ function App() {
 
       <main>
         <Capa/>
+        <section>
+          <Produtos/>
+        </section>
       </main>
     </div>
   )
