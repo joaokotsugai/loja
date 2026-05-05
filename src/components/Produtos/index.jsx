@@ -2,7 +2,7 @@ import './Produtos.css';
 
 import Leopard from '../../assets/Tiger_Fruit.png';
 import Falcon from '../../assets/EagleFruit.png';
-import Dragon from '../../assets/Dragon.png';
+import Criação from '../../assets/criacao.png';
 import Kitsune from '../../assets/kitsune.png';
 import Gravity from '../../assets/GravityFruit.png';
 import Gas from '../../assets/Gas_Fruit.png';
@@ -20,7 +20,7 @@ export default function Produtos() {
                     <div className='card'>
                         <div className='card-image'>
                             <img src={Leopard} alt='Fruta Leopard' />
-                            <span className='badge-venda'>Mais vendidos</span>
+                            <span className='badge-venda'>Mais vendido</span>
                         </div>
                         <div className='card-info'>
                             <h3>Fruta Leopard</h3>
@@ -31,11 +31,11 @@ export default function Produtos() {
 
                     <div className='card'>
                         <div className='card-image'>
-                            <img src={Dragon} alt='Fruta Dragon'/>
+                            <img src={Criação} alt='Fruta Criação'/>
                         </div>
                         <div className='card-info'>
-                            <h3>Fruta Dragon</h3>
-                            <p className='preco'>R$ 267,90</p>
+                            <h3>Fruta Criação</h3>
+                            <p className='preco'>R$ 50,90</p>
                             <button className='btn'>Comprar agora</button>
                         </div>
                     </div>
